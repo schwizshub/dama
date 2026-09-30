@@ -1,0 +1,8 @@
+command: ["streamlit", "run", "app.py", "--server.headless", "true"]
+env:
+  - name: VS_INDEX
+    value: "dama.documents.dmbok_chunks_index"
+  - name: LLM_ENDPOINT
+    value: "databricks-claude-sonnet-4-5"
+  - name: TOP_K
+    value: "6"
